@@ -1,0 +1,213 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+Body {
+  font-family: 'Lato', sans-serif;
+  color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+}
+
+/* section #1 starts */
+.container1 {
+  display: flex;
+  flex-wrap: wrap;
+  height: 90px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+header {
+  background-color: white;
+  margin-top: -8px;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+nav > ul {
+  display: flex;
+  white-space: nowrap;
+}
+.nav-link {
+  font-size: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: black;
+  text-decoration: none;
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+#header-img {
+  height: 60px;
+  width: auto;
+}
+@media (max-width: 800px) {
+  .nav-link {
+    font-size: 20px;
+  }
+}
+@media (max-width: 600px) {
+  nav > ul {
+    flex-direction: column;
+    text-align: center;
+    font-size: 7px;
+    padding-inline-start: 0px;
+  }
+}
+@media (max-width: 403px) {
+  .container1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    height: 150px;
+  }
+}
+@media (max-width: 403px) {
+  nav > ul {
+    padding-inline-start: 0px;
+  }
+}
+@media (max-width: 403px) {
+  #header-img {
+    height: 48px;
+    width: auto;
+  }
+}
+
+
+
+/* section #1 ends section #2 starts */
+.container2 {
+  text-align: center;
+  margin: 0px -8px 8vh -8px;
+  padding-top: 25px;
+  padding-bottom: 50px;
+  background-color: rgba(184, 135, 11, 0.192);
+  }
+#email {
+    height: 25px;
+    width: 280px;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+#submit{
+    height: 30px;
+    border: 2;
+    border-radius: 2px;
+    border-color:darkgoldenrod;
+    width: 50px;
+  }
+.container2 > h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  }
+
+
+
+/* section #2 ends section #3 starts */
+.container3 {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  width: 90%;
+  max-width: 1200px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  grid-row-gap: 60px;
+  grid-column-gap: 20px;
+}
+.icon {
+  color: darkgoldenrod;
+  justify-content: center;
+}
+.container3 > div {
+  display: grid;
+  align-content: center;
+}
+.container3 > div > h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.container3 > div > p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+
+
+/* section #3 ends section #4 starts */
+.container4 {
+  background-color: rgb(255, 255, 255);
+  margin: 8vh -8px 9vh -8px;
+}
+#howitworks {
+  width: 60%;
+  max-width: 800px;
+  height: 35vw;
+  max-height: 450px;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+/* section #4 ends section #5 starts */
+.container5 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 30px;
+  color: gray;
+  width: 90%;
+  max-width: 1000px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 8vh;
+}
+
+.option {
+  justify-content: center;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 5px;
+}
+
+.container5 > div {
+  text-align: center;
+  color: black;
+}
+
+.container5 > div > h2{
+  color: black;
+  background-color: rgba(184, 135, 11, 0.192);
+  width: 100%;
+  margin-top: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.container5 > div > button{
+  width: 100%;
+  border: none;
+  margin-bottom: 0px;
+  padding: 10px 0px 10px 0px;
+  background-color:rgba(0, 0, 0, 100);
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* section #5 ends section #6 starts */
+.container6 {
+  background-color: rgb(223, 223, 223);
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+footer > div > div {
+  word-spacing: 20px;
+}
+
+footer > div > div > a {
+  text-decoration: none;
+  color: black;
+}
